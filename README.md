@@ -22,5 +22,3 @@ The current scenario descriptor targets game version 1.19.*. Check compatibility
 ## Status
 
 This is an independently developed scenario with original project assets, using the vanilla Hearts of Iron IV map. The supply network has been checked statically for province ownership, land adjacency, and redundant routes. In-game supply behavior and multiplayer balance still require testing.
-
-See STEAM_WORKSHOP_EN.md for ready-to-use Steam Workshop description and update notes.
