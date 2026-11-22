@@ -1,0 +1,8 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+POR_overseas_provinces = { allowed = { always = no } visible = { always = no } }
+POR_arms_purchases = { allowed = { always = no } visible = { always = no } }
+POR_naval_blockade = { allowed = { always = no } visible = { always = no } }
+POR_iberian_summit = { allowed = { always = no } visible = { always = no } }
+POR_monarchist_cause = { allowed = { always = no } visible = { always = no } }
+POR_prospect_for_resources = { allowed = { always = no } visible = { always = no } }
+POR_the_spanish_civil_war = { allowed = { always = no } visible = { always = no } }

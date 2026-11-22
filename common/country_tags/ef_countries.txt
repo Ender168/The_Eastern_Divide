@@ -1,0 +1,3 @@
+WEF = "countries/EF Western Side.txt"
+EEF = "countries/EF Eastern Side.txt"
+OBS = "countries/EF Neutral Territories.txt"

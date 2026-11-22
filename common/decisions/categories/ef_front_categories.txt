@@ -1,0 +1,4 @@
+ef_match = {
+    allowed = { OR = { tag = WEF tag = EEF } }
+    visible = { NOT = { has_global_flag = ef_match_started } }
+}

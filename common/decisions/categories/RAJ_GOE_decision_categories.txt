@@ -1,0 +1,18 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+RAJ_GOE_independence_movement = { allowed = { always = no } visible = { always = no } }
+RAJ_GOE_tea_exports_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_GOE_sikh_recruitment_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_GOE_famine_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_GOE_into_hiding_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_GOE_india_indivisible_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_military_matters = { allowed = { always = no } visible = { always = no } }
+RAJ_GOE_partition_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_akhand_bharat_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_GOE_eic_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_GOE_eic_hostile_takeover_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_GOE_mughal_independence_category = { allowed = { always = no } visible = { always = no } }
+RAJ_GOE_communism_infiltration_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_GOE_communism_border_clashes_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_peasant_uprisings_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_work_with_local_leaders_cat = { allowed = { always = no } visible = { always = no } }
+RAJ_concessions_to_the_congress_cat = { allowed = { always = no } visible = { always = no } }

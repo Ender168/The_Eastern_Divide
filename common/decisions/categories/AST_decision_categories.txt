@@ -1,0 +1,19 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+AST_union_control_1_cat = { allowed = { always = no } visible = { always = no } }
+AST_nationalizing_cat = { allowed = { always = no } visible = { always = no } }
+AST_union_control_2_foreign_cat = { allowed = { always = no } visible = { always = no } }
+AST_union_control_2_cat = { allowed = { always = no } visible = { always = no } }
+AST_election_approaching_cat = { allowed = { always = no } visible = { always = no } }
+AST_election_season_cat = { allowed = { always = no } visible = { always = no } }
+AST_war_is_coming_cat = { allowed = { always = no } visible = { always = no } }
+AST_cabinet_trust_cat = { allowed = { always = no } visible = { always = no } }
+AST_war_angst_cat = { allowed = { always = no } visible = { always = no } }
+AST_australian_demands_cat = { allowed = { always = no } visible = { always = no } }
+AST_resource_acquisition_cat = { allowed = { always = no } visible = { always = no } }
+AST_australia_first_movement_cat = { allowed = { always = no } visible = { always = no } }
+AST_vichy_out_of_africa_cat = { allowed = { always = no } visible = { always = no } }
+AST_naval_efforts_cat = { allowed = { always = no } visible = { always = no } }
+AST_kingdom_expansions_cat = { allowed = { always = no } visible = { always = no } }
+AST_big_business_pact_cat = { allowed = { always = no } visible = { always = no } }
+AST_ireland_weapon_smuggling_cat = { allowed = { always = no } visible = { always = no } }
+AST_special_forces_cat = { allowed = { always = no } visible = { always = no } }

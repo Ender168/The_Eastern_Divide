@@ -1,0 +1,20 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+DEN_balance_of_power_category = { allowed = { always = no } visible = { always = no } }
+DEN_occupation_category = { allowed = { always = no } visible = { always = no } }
+DEN_resistance_category = { allowed = { always = no } visible = { always = no } }
+DEN_overlord_category = { allowed = { always = no } visible = { always = no } }
+DEN_demand_territory_category = { allowed = { always = no } visible = { always = no } }
+DEN_integration_puppets_category = { allowed = { always = no } visible = { always = no } }
+DEN_integration_territories_category = { allowed = { always = no } visible = { always = no } }
+DEN_trade_deal_category = { allowed = { always = no } visible = { always = no } }
+DEN_fortification_category = { allowed = { always = no } visible = { always = no } }
+DEN_development_category = { allowed = { always = no } visible = { always = no } }
+DEN_military_category = { allowed = { always = no } visible = { always = no } }
+DEN_danish_security_category = { allowed = { always = no } visible = { always = no } }
+DEN_nordic_security_category = { allowed = { always = no } visible = { always = no } }
+DEN_danish_faction_category = { allowed = { always = no } visible = { always = no } }
+DEN_influence_countries_category = { allowed = { always = no } visible = { always = no } }
+DEN_offer_protection_category = { allowed = { always = no } visible = { always = no } }
+DEN_pan_scandinavianism_decisions_category = { allowed = { always = no } visible = { always = no } }
+DEN_swedish_steel_production_category = { allowed = { always = no } visible = { always = no } }
+DEN_return_occupied_territory_category = { allowed = { always = no } visible = { always = no } }

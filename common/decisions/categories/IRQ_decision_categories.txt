@@ -1,0 +1,7 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+IRQ_arab_free_legion_cat = { allowed = { always = no } visible = { always = no } }
+greater_iraq_decision_cat = { allowed = { always = no } visible = { always = no } }
+united_arab_republic_cat = { allowed = { always = no } visible = { always = no } }
+hashemite_federation_cat = { allowed = { always = no } visible = { always = no } }
+IRQ_flood_the_plains_cat = { allowed = { always = no } visible = { always = no } }
+KUR_syrian_border_skrimish_cat = { allowed = { always = no } visible = { always = no } }

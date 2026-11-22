@@ -1,0 +1,1 @@
+# Starting armies are assigned by the separate starting-armies feature.

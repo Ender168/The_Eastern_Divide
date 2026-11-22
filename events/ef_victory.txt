@@ -1,0 +1,28 @@
+add_namespace = ef_victory
+
+country_event = {
+    id = ef_victory.1
+    title = ef_result_wef_title
+    desc = ef_result_desc
+    is_triggered_only = yes
+
+    option = { name = ef_result_acknowledge }
+}
+
+country_event = {
+    id = ef_victory.2
+    title = ef_result_eef_title
+    desc = ef_result_desc
+    is_triggered_only = yes
+
+    option = { name = ef_result_acknowledge }
+}
+
+country_event = {
+    id = ef_victory.3
+    title = ef_result_draw_title
+    desc = ef_result_desc
+    is_triggered_only = yes
+
+    option = { name = ef_result_acknowledge }
+}

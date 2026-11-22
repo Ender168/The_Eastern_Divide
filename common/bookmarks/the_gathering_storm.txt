@@ -1,0 +1,19 @@
+bookmarks = {
+    bookmark = {
+        name = "EF_BOOKMARK"
+        desc = "EF_BOOKMARK_DESC"
+        date = 1936.1.1.12
+        picture = "GFX_select_date_1936"
+        default_country = "WEF"
+        default = yes
+
+        WEF = {
+            history = "EF_WEST_DESC"
+            ideology = neutrality
+        }
+        EEF = {
+            history = "EF_EAST_DESC"
+            ideology = neutrality
+        }
+    }
+}

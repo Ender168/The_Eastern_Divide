@@ -1,0 +1,2 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+african_union_category = { allowed = { always = no } visible = { always = no } }

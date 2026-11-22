@@ -1,0 +1,15 @@
+state = {
+    id = 802
+    name = "STATE_802"
+    provinces = { 6940 9849 9874 9890 }
+    state_category = rural
+    manpower = 150000
+    resources = { steel = 4 aluminium = 4 oil = 2 rubber = 2 tungsten = 2 chromium = 2 coal = 7 }
+    history = {
+        owner = WEF
+        add_core_of = WEF
+        buildings = { infrastructure = 3 industrial_complex = 3 arms_factory = 3 air_base = 5 }
+        victory_points = { 6940 1 }
+        victory_points = { 9849 1 }
+    }
+}

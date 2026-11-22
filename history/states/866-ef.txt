@@ -1,0 +1,11 @@
+state = {
+    id = 866
+    name = "STATE_866"
+    provinces = { 761 763 3736 4753 13315 }
+    state_category = rural
+    manpower = 1
+    history = {
+        owner = OBS
+        add_core_of = OBS
+    }
+}

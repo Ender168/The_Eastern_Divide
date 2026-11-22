@@ -1,0 +1,15 @@
+state = {
+    id = 810
+    name = "STATE_810"
+    provinces = { 222 310 319 341 3298 6459 7482 9275 11222 }
+    state_category = city
+    manpower = 150000
+    resources = { steel = 4 aluminium = 4 oil = 2 rubber = 2 tungsten = 2 chromium = 2 coal = 7 }
+    history = {
+        owner = EEF
+        add_core_of = EEF
+        buildings = { infrastructure = 3 industrial_complex = 3 arms_factory = 3 air_base = 5 }
+        victory_points = { 222 1 }
+        victory_points = { 310 1 }
+    }
+}

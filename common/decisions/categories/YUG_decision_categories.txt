@@ -1,0 +1,5 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+YUG_peasant_uprisings = { allowed = { always = no } visible = { always = no } }
+YUG_crush_ustasa = { allowed = { always = no } visible = { always = no } }
+YUG_delay_ustasa_uprising = { allowed = { always = no } visible = { always = no } }
+YUG_progress_crushing_decisions = { allowed = { always = no } visible = { always = no } }

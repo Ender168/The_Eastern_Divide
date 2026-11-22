@@ -1,0 +1,8 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+PHI_convoys_for_infrastructure_decision_cat = { allowed = { always = no } visible = { always = no } }
+PHI_sugar_barons_category = { allowed = { always = no } visible = { always = no } }
+PHI_american_intervention_category = { allowed = { always = no } visible = { always = no } }
+PHI_integration_category = { allowed = { always = no } visible = { always = no } }
+PHI_department_of_foreign_affairs_category = { allowed = { always = no } visible = { always = no } }
+PHI_government_in_exile_cat = { allowed = { always = no } visible = { always = no } }
+PHI_relations_with_spanish_america = { allowed = { always = no } visible = { always = no } }

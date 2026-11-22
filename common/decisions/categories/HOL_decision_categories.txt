@@ -1,0 +1,10 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+HOL_obtain_foreign_colonial_investments = { allowed = { always = no } visible = { always = no } }
+HOL_prepare_the_inundation_lines = { allowed = { always = no } visible = { always = no } }
+HOL_war_on_pacifism = { allowed = { always = no } visible = { always = no } }
+HOL_secret_staff_talks = { allowed = { always = no } visible = { always = no } }
+HOL_gateway_to_europe_hol_category = { allowed = { always = no } visible = { always = no } }
+HOL_gateway_to_europe_ger_category = { allowed = { always = no } visible = { always = no } }
+HOL_gateway_to_europe_eng_category = { allowed = { always = no } visible = { always = no } }
+HOL_request_allied_favors = { allowed = { always = no } visible = { always = no } }
+HOL_bernhard = { allowed = { always = no } visible = { always = no } }

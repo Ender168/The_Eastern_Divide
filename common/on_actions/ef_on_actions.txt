@@ -1,0 +1,34 @@
+on_actions = {
+    on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    tag = WEF
+                    has_global_flag = ef_match_started
+                    NOT = { has_global_flag = ef_match_finished }
+
+
+                    WEF = { has_war_with = EEF }
+                    NOT = { has_global_flag = ef_start_day }
+                }
+                country_event = { id = ef_victory.10 }
+            }
+        }
+    }
+    on_monthly = {
+        effect = {
+            if = {
+                limit = {
+                    tag = WEF
+                    has_global_flag = ef_match_started
+                    NOT = { has_global_flag = ef_match_finished }
+
+
+                    WEF = { has_war_with = EEF }
+                    NOT = { has_global_flag = ef_start_day }
+                }
+                country_event = { id = ef_victory.11 }
+            }
+        }
+    }
+}

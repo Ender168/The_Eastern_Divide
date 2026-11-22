@@ -1,0 +1,22 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+SOV_paranoia_system = { allowed = { always = no } visible = { always = no } }
+SOV_propaganda_campaigns = { allowed = { always = no } visible = { always = no } }
+SOV_gosproyektstroy_decision_category = { allowed = { always = no } visible = { always = no } }
+SOV_industry_relocation = { allowed = { always = no } visible = { always = no } }
+SOV_soviet_aid_to_poum_decision_category = { allowed = { always = no } visible = { always = no } }
+SOV_great_patriotic_war = { allowed = { always = no } visible = { always = no } }
+SOV_diplomacy_baltic_decision_category = { allowed = { always = no } visible = { always = no } }
+SOV_diplomacy_nordic_decision_category = { allowed = { always = no } visible = { always = no } }
+SOV_diplomacy_balkan_decision_category = { allowed = { always = no } visible = { always = no } }
+SOV_diplomacy_middle_east_decision_category = { allowed = { always = no } visible = { always = no } }
+SOV_diplomacy_asia_decision_category = { allowed = { always = no } visible = { always = no } }
+SOV_soviet_aid_decision_category = { allowed = { always = no } visible = { always = no } }
+SOV_national_academy_of_sciences_dec_cat = { allowed = { always = no } visible = { always = no } }
+SOV_merge_designers_dec_cat = { allowed = { always = no } visible = { always = no } }
+SOV_kill_trotsky_dec_cat = { allowed = { always = no } visible = { always = no } }
+SOV_infiltrate_foreign_atomic_programs_dec_cat = { allowed = { always = no } visible = { always = no } }
+SOV_comecon_dec_cat = { allowed = { always = no } visible = { always = no } }
+SOV_soviet_civil_war_dec_cat = { allowed = { always = no } visible = { always = no } }
+SOV_permanent_revolution_dec_cat = { allowed = { always = no } visible = { always = no } }
+SOV_panslavic_nationalism = { allowed = { always = no } visible = { always = no } }
+SOV_polish_territory = { allowed = { always = no } visible = { always = no } }

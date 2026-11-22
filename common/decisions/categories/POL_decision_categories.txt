@@ -1,0 +1,16 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+POL_danzig_decisions = { allowed = { always = no } visible = { always = no } }
+POL_sanation_decisions = { allowed = { always = no } visible = { always = no } }
+POL_peasant_strike_category = { allowed = { always = no } visible = { always = no } }
+POL_organize_the_peasants_strike = { allowed = { always = no } visible = { always = no } }
+POL_invite_foreign_motor_decisions = { allowed = { always = no } visible = { always = no } }
+POL_miedzymorze_decisions = { allowed = { always = no } visible = { always = no } }
+POL_defensive_plans = { allowed = { always = no } visible = { always = no } }
+POL_reopen_the_maritime_and_colonial_league = { allowed = { always = no } visible = { always = no } }
+POL_anti_capitalist_decisions = { allowed = { always = no } visible = { always = no } }
+POL_anti_fascist_revolution_category = { allowed = { always = no } visible = { always = no } }
+POL_support_monarchy_in_LIT_cat = { allowed = { always = no } visible = { always = no } }
+POL_fight_against_monarchy_in_LIT_cat = { allowed = { always = no } visible = { always = no } }
+POL_cossack_republic_decisions = { allowed = { always = no } visible = { always = no } }
+POL_sanacja_falanga_decisions = { allowed = { always = no } visible = { always = no } }
+POL_promote_falangism_decisions = { allowed = { always = no } visible = { always = no } }

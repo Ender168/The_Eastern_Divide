@@ -1,0 +1,9 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+HUN_national_academy_of_sciences_category = { allowed = { always = no } visible = { always = no } }
+HUN_gyor_program_initiatives_category = { allowed = { always = no } visible = { always = no } }
+HUN_territorial_revision_category = { allowed = { always = no } visible = { always = no } }
+HUN_the_empire_category = { allowed = { always = no } visible = { always = no } }
+HUN_balkan_pact_category = { allowed = { always = no } visible = { always = no } }
+HUN_fascist_movements_category = { allowed = { always = no } visible = { always = no } }
+HUN_the_danubian_federation_category = { allowed = { always = no } visible = { always = no } }
+HUN_balkan_union_category = { allowed = { always = no } visible = { always = no } }

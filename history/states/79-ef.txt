@@ -1,0 +1,15 @@
+state = {
+    id = 79
+    name = "STATE_79"
+    provinces = { 723 744 3728 3741 6584 6706 6729 6747 6761 9701 9716 11534 11652 11655 11672 11689 }
+    state_category = city
+    manpower = 150000
+    resources = { steel = 4 aluminium = 4 oil = 2 rubber = 2 tungsten = 2 chromium = 2 coal = 7 }
+    history = {
+        owner = WEF
+        add_core_of = WEF
+        buildings = { infrastructure = 3 industrial_complex = 3 arms_factory = 3 air_base = 5 }
+        victory_points = { 6706 1 }
+        victory_points = { 9716 10 }
+    }
+}

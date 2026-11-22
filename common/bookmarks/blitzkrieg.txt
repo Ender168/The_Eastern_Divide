@@ -1,0 +1,2 @@
+# The standalone Eastern Front bookmark is defined in the_gathering_storm.txt.
+bookmarks = { }

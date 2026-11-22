@@ -1,0 +1,7 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+COG_industrial_investment_decisions = { allowed = { always = no } visible = { always = no } }
+COG_ruanda_urundi_decisions = { allowed = { always = no } visible = { always = no } }
+COG_the_empain_group_decisions = { allowed = { always = no } visible = { always = no } }
+COG_anti_colonialism_category = { allowed = { always = no } visible = { always = no } }
+COG_freedom_at_gunpoint_category = { allowed = { always = no } visible = { always = no } }
+COG_congo_integration_decisions = { allowed = { always = no } visible = { always = no } }

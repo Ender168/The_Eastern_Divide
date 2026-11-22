@@ -1,0 +1,11 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+FIN_balance_of_power_category = { allowed = { always = no } visible = { always = no } }
+FIN_motti_tactics_category = { allowed = { always = no } visible = { always = no } }
+FIN_national_defense_category = { allowed = { always = no } visible = { always = no } }
+FIN_finnish_resistance_category = { allowed = { always = no } visible = { always = no } }
+FIN_the_path_to_socialism = { allowed = { always = no } visible = { always = no } }
+FIN_foreign_politics_decision_category = { allowed = { always = no } visible = { always = no } }
+FIN_coup_preparations = { allowed = { always = no } visible = { always = no } }
+FIN_the_last_kinship_war = { allowed = { always = no } visible = { always = no } }
+FIN_finno_soviet_kinship_war = { allowed = { always = no } visible = { always = no } }
+FIN_confederated_finno_russian_republics_category = { allowed = { always = no } visible = { always = no } }

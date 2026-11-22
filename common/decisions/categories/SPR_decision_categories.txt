@@ -1,0 +1,11 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+SPR_opposition_civil_war_preparations = { allowed = { always = no } visible = { always = no } }
+SPR_the_inevitable_civil_war = { allowed = { always = no } visible = { always = no } }
+SPR_civil_war_offensives = { allowed = { always = no } visible = { always = no } }
+SPA_reassert_american_dominance = { allowed = { always = no } visible = { always = no } }
+SPA_preparing_the_carlist_insurrection = { allowed = { always = no } visible = { always = no } }
+SPR_foreign_arms_purchases = { allowed = { always = no } visible = { always = no } }
+SPR_the_seeds_of_revolution = { allowed = { always = no } visible = { always = no } }
+SPR_anti_fascist_unity = { allowed = { always = no } visible = { always = no } }
+SPR_recovering_from_civil_war = { allowed = { always = no } visible = { always = no } }
+SPR_expand_resource_extraction = { allowed = { always = no } visible = { always = no } }

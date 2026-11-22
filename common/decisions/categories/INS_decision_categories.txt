@@ -1,0 +1,17 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+INS_volksraad_cat = { allowed = { always = no } visible = { always = no } }
+INS_leaders_cat = { allowed = { always = no } visible = { always = no } }
+INS_pacific_revolution_cat = { allowed = { always = no } visible = { always = no } }
+INS_aslia_cat = { allowed = { always = no } visible = { always = no } }
+INS_limited_wars_cat = { allowed = { always = no } visible = { always = no } }
+INS_borneo_puppet_cat = { allowed = { always = no } visible = { always = no } }
+INS_malay_unification_cat = { allowed = { always = no } visible = { always = no } }
+INS_economic_cat = { allowed = { always = no } visible = { always = no } }
+INS_realign_supply_chains_cat = { allowed = { always = no } visible = { always = no } }
+INS_exile_cat = { allowed = { always = no } visible = { always = no } }
+INS_militias_cat = { allowed = { always = no } visible = { always = no } }
+INS_unity_in_diversity_cat = { allowed = { always = no } visible = { always = no } }
+INS_revolution_planning_cat = { allowed = { always = no } visible = { always = no } }
+INS_national_revolution_cat = { allowed = { always = no } visible = { always = no } }
+INS_national_revolution_dutch_cat = { allowed = { always = no } visible = { always = no } }
+INS_the_co_prosperity_sphere_cat = { allowed = { always = no } visible = { always = no } }

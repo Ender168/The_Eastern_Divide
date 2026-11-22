@@ -1,0 +1,8 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+MAN_banditry_category = { allowed = { always = no } visible = { always = no } }
+MAN_war_preparations = { allowed = { always = no } visible = { always = no } }
+MAN_china_matters = { allowed = { always = no } visible = { always = no } }
+MAN_yong_ying_category = { allowed = { always = no } visible = { always = no } }
+MAN_coring_decisions = { allowed = { always = no } visible = { always = no } }
+MAN_state_shintoism_decisions = { allowed = { always = no } visible = { always = no } }
+MAN_march_on_beijing_decisions = { allowed = { always = no } visible = { always = no } }

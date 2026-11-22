@@ -1,0 +1,11 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+SIA_war_fervor_cat = { allowed = { always = no } visible = { always = no } }
+SIA_thai_cultural_mandates = { allowed = { always = no } visible = { always = no } }
+SIA_movie_theater_cat = { allowed = { always = no } visible = { always = no } }
+SIA_limited_war_cat = { allowed = { always = no } visible = { always = no } }
+SIA_new_territories_administration_cat = { allowed = { always = no } visible = { always = no } }
+SIA_appeal_for_support_cat = { allowed = { always = no } visible = { always = no } }
+SIA_army_navy_reform_cat = { allowed = { always = no } visible = { always = no } }
+SIA_asian_democratic_compact_cat = { allowed = { always = no } visible = { always = no } }
+SIA_khana_ratsadon_cat = { allowed = { always = no } visible = { always = no } }
+SIA_free_thai_air_network_cat = { allowed = { always = no } visible = { always = no } }

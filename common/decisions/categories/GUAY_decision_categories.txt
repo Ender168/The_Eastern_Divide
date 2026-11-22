@@ -1,0 +1,6 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+GUAY_military_coup = { allowed = { always = no } visible = { always = no } }
+GUAY_military_play_cat = { allowed = { always = no } visible = { always = no } }
+GUAY_meet_with_the_old_powers_cat = { allowed = { always = no } visible = { always = no } }
+GUAY_laissez_faire_cat = { allowed = { always = no } visible = { always = no } }
+form_liga_federal_cat = { allowed = { always = no } visible = { always = no } }

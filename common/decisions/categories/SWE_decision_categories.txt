@@ -1,0 +1,16 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+SWE_rearnament_system = { allowed = { always = no } visible = { always = no } }
+SWE_hungershield_cat = { allowed = { always = no } visible = { always = no } }
+SWE_politics = { allowed = { always = no } visible = { always = no } }
+SWE_mines = { allowed = { always = no } visible = { always = no } }
+SWE_ebba_palmstierna_cat = { allowed = { always = no } visible = { always = no } }
+SWE_rationing_policies = { allowed = { always = no } visible = { always = no } }
+SWE_train_the_sheltered_cat = { allowed = { always = no } visible = { always = no } }
+SWE_military_matters = { allowed = { always = no } visible = { always = no } }
+SWE_ball_bearings_cat = { allowed = { always = no } visible = { always = no } }
+SWE_coax_nordic_defense_council_cat = { allowed = { always = no } visible = { always = no } }
+SWE_fascism_buildup = { allowed = { always = no } visible = { always = no } }
+SWE_appeal_for_support_cat = { allowed = { always = no } visible = { always = no } }
+SWE_royalist_buildup = { allowed = { always = no } visible = { always = no } }
+SWE_communist_foreign_influence = { allowed = { always = no } visible = { always = no } }
+SWE_coalition_war_cabinet_cat = { allowed = { always = no } visible = { always = no } }

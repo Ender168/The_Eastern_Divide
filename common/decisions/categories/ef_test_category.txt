@@ -1,0 +1,4 @@
+ef_test_category = {
+    allowed = { OR = { tag = WEF tag = EEF } }
+    visible = { is_ai = no OR = { tag = WEF tag = EEF } }
+}

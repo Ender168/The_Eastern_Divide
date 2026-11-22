@@ -1,0 +1,5 @@
+ef_victory = {
+    allowed = { OR = { tag = WEF tag = EEF } }
+    visible_when_empty = yes
+    picture = GFX_decision_cat_picture_generic_border_conflicts
+}

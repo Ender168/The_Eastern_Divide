@@ -1,0 +1,3 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+NORDIC_debug_decisions_category = { allowed = { always = no } visible = { always = no } }
+NORDIC_cooperation_decisions_category = { allowed = { always = no } visible = { always = no } }

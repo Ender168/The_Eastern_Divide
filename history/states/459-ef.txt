@@ -1,0 +1,13 @@
+state = {
+    id = 459
+    name = "STATE_459"
+    provinces = { 1013 1145 4116 4131 4146 7132 9964 11923 11939 12760 }
+    state_category = rural
+    manpower = 1
+    history = {
+        owner = OBS
+        add_core_of = OBS
+        victory_points = { 1145 1 }
+        victory_points = { 7132 1 }
+    }
+}

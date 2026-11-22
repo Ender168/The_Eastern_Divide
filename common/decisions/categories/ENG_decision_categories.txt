@@ -1,0 +1,9 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+ENG_narvik_crisis_cat = { allowed = { always = no } visible = { always = no } }
+ENG_organize_the_blackshirts = { allowed = { always = no } visible = { always = no } }
+ENG_appeal_to_imperial_loyalists = { allowed = { always = no } visible = { always = no } }
+ENG_homeland_defense_decision_cat = { allowed = { always = no } visible = { always = no } }
+ENG_concessions_to_the_trade_unions = { allowed = { always = no } visible = { always = no } }
+ENG_move_to_secure_the_dominions = { allowed = { always = no } visible = { always = no } }
+ENG_imperial_conference_decision = { allowed = { always = no } visible = { always = no } }
+ENG_enforce_the_naval_treaties = { allowed = { always = no } visible = { always = no } }

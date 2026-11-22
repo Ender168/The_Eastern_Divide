@@ -1,0 +1,4 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+improving_our_army_category = { allowed = { always = no } visible = { always = no } }
+south_american_naval_arms_race_category = { allowed = { always = no } visible = { always = no } }
+JUNO_promote_immigration_cat = { allowed = { always = no } visible = { always = no } }

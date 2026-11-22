@@ -1,0 +1,13 @@
+# Keep vanilla focus definitions available for engine references.
+focus_tree = {
+    id = ef_empty_focus_tree
+    country = {
+        factor = 0
+        modifier = {
+            add = 100000
+            OR = { tag = WEF tag = EEF tag = OBS }
+        }
+    }
+    default = no
+    reset_on_civilwar = no
+}

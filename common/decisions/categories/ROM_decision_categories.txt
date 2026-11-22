@@ -1,0 +1,3 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+ROM_change_sides = { allowed = { always = no } visible = { always = no } }
+ROM_dividing_yugo = { allowed = { always = no } visible = { always = no } }

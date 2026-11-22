@@ -1,0 +1,8 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+ITA_missiolinis = { allowed = { always = no } visible = { always = no } }
+ITA_balance_of_power_category = { allowed = { always = no } visible = { always = no } }
+ITA_colonial_management_dec_cat = { allowed = { always = no } visible = { always = no } }
+ITA_naval_cooperation_programs_dec_cat = { allowed = { always = no } visible = { always = no } }
+ITA_diplomacy_balkan_decision_category = { allowed = { always = no } visible = { always = no } }
+ITA_vallo_alpino_del_littorio_dec_cat = { allowed = { always = no } visible = { always = no } }
+ITA_italian_mafia_dec_cat = { allowed = { always = no } visible = { always = no } }

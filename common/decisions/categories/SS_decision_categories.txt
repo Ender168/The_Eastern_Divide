@@ -1,0 +1,4 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+SS_demands = { allowed = { always = no } visible = { always = no } }
+SS_recruitment = { allowed = { always = no } visible = { always = no } }
+wehrmacht_demands = { allowed = { always = no } visible = { always = no } }

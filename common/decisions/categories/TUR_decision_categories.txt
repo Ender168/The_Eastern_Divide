@@ -1,0 +1,10 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+TUR_the_constitutional_arrows_category = { allowed = { always = no } visible = { always = no } }
+TUR_kurdish_state_management_category = { allowed = { always = no } visible = { always = no } }
+TUR_fundamentalist_state_management_category = { allowed = { always = no } visible = { always = no } }
+TUR_kemalist_state_management_category = { allowed = { always = no } visible = { always = no } }
+TUR_the_fading_father_category = { allowed = { always = no } visible = { always = no } }
+TUR_the_enemy_within = { allowed = { always = no } visible = { always = no } }
+TUR_industrial_projects_category = { allowed = { always = no } visible = { always = no } }
+TUR_reforming_our_armed_forces_category = { allowed = { always = no } visible = { always = no } }
+category_faction_debug_decisions = { allowed = { always = no } visible = { always = no } }

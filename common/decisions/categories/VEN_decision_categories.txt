@@ -1,0 +1,2 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+VEN_abc_islands = { allowed = { always = no } visible = { always = no } }

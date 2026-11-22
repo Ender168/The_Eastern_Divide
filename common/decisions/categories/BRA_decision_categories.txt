@@ -1,0 +1,17 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+BRA_industrial_decisions = { allowed = { always = no } visible = { always = no } }
+BRA_ensure_support_cat = { allowed = { always = no } visible = { always = no } }
+BRA_amazonian_settlement_cat = { allowed = { always = no } visible = { always = no } }
+BRA_propaganda_campaigns = { allowed = { always = no } visible = { always = no } }
+BRA_cangaceiro_decision_cat = { allowed = { always = no } visible = { always = no } }
+BRA_good_neighbor_decisions = { allowed = { always = no } visible = { always = no } }
+BRA_mercosul_decisions = { allowed = { always = no } visible = { always = no } }
+BRA_organization_of_american_states_decision_cat = { allowed = { always = no } visible = { always = no } }
+BRA_jaguar_diplomacy_cat = { allowed = { always = no } visible = { always = no } }
+BRA_oust_the_empires_decision_cat = { allowed = { always = no } visible = { always = no } }
+BRA_sway_the_neighbors_cat = { allowed = { always = no } visible = { always = no } }
+BRA_counter_influence_cat = { allowed = { always = no } visible = { always = no } }
+BRA_invite_foreign_companies_cat = { allowed = { always = no } visible = { always = no } }
+BRA_america_do_sul_cat = { allowed = { always = no } visible = { always = no } }
+BRA_us_of_south_america_cat = { allowed = { always = no } visible = { always = no } }
+BRA_foreign_legion_cat = { allowed = { always = no } visible = { always = no } }

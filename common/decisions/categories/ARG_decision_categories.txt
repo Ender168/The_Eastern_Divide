@@ -1,0 +1,7 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+ARG_intervenciones_federales_decisions = { allowed = { always = no } visible = { always = no } }
+ARG_international_loan_decisions = { allowed = { always = no } visible = { always = no } }
+ARG_balancing_act_decisions = { allowed = { always = no } visible = { always = no } }
+ARG_military_coup_decisions = { allowed = { always = no } visible = { always = no } }
+ARG_south_american_unity_decisions = { allowed = { always = no } visible = { always = no } }
+ARG_island_negotiations_decisions = { allowed = { always = no } visible = { always = no } }

@@ -1,0 +1,2343 @@
+division_template = {
+    name = "EF Infantry"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 2 y = 1 }
+        infantry = { x = 2 y = 2 }
+    }
+}
+
+division_template = {
+    name = "EF Medium Armour"
+    regiments = {
+        medium_armor = { x = 0 y = 0 }
+        medium_armor = { x = 0 y = 1 }
+        medium_armor = { x = 0 y = 2 }
+        medium_armor = { x = 1 y = 0 }
+        medium_armor = { x = 1 y = 1 }
+        motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+        motorized = { x = 2 y = 2 }
+        motorized = { x = 2 y = 3 }
+        motorized = { x = 2 y = 4 }
+    }
+}
+
+units = {
+    division = {
+        name = "EEF Infantry Division 001"
+        location = 306
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 002"
+        location = 310
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 003"
+        location = 476
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 004"
+        location = 525
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 005"
+        location = 560
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 006"
+        location = 572
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 007"
+        location = 3151
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 008"
+        location = 3320
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 009"
+        location = 3335
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 010"
+        location = 3392
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 011"
+        location = 3393
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 012"
+        location = 3452
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 013"
+        location = 3707
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 014"
+        location = 4640
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 015"
+        location = 6262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 016"
+        location = 6296
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 017"
+        location = 6314
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 018"
+        location = 6373
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 019"
+        location = 6380
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 020"
+        location = 6474
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 021"
+        location = 6593
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 022"
+        location = 9197
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 023"
+        location = 9262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 024"
+        location = 9288
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 025"
+        location = 9304
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 026"
+        location = 9355
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 027"
+        location = 9417
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 028"
+        location = 9483
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 029"
+        location = 11202
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 030"
+        location = 11230
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 031"
+        location = 11234
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 032"
+        location = 11241
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 033"
+        location = 11301
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 034"
+        location = 11349
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 035"
+        location = 11370
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 036"
+        location = 11437
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 037"
+        location = 11479
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 038"
+        location = 11504
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 039"
+        location = 11670
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 040"
+        location = 306
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 041"
+        location = 310
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 042"
+        location = 476
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 043"
+        location = 525
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 044"
+        location = 560
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 045"
+        location = 572
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 046"
+        location = 3151
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 047"
+        location = 3320
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 048"
+        location = 3335
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 049"
+        location = 3392
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 050"
+        location = 3393
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 051"
+        location = 3452
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 052"
+        location = 3707
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 053"
+        location = 4640
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 054"
+        location = 6262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 055"
+        location = 6296
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 056"
+        location = 6314
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 057"
+        location = 6373
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 058"
+        location = 6380
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 059"
+        location = 6474
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 060"
+        location = 6593
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 061"
+        location = 9197
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 062"
+        location = 9262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 063"
+        location = 9288
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 064"
+        location = 9304
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 065"
+        location = 9355
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 066"
+        location = 9417
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 067"
+        location = 9483
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 068"
+        location = 11202
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 069"
+        location = 11230
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 070"
+        location = 11234
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 071"
+        location = 11241
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 072"
+        location = 11301
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 073"
+        location = 11349
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 074"
+        location = 11370
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 075"
+        location = 11437
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 076"
+        location = 11479
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 077"
+        location = 11504
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 078"
+        location = 11670
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 079"
+        location = 306
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 080"
+        location = 310
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 081"
+        location = 476
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 082"
+        location = 525
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 083"
+        location = 560
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 084"
+        location = 572
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 085"
+        location = 3151
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 086"
+        location = 3320
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 087"
+        location = 3335
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 088"
+        location = 3392
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 089"
+        location = 3393
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 090"
+        location = 3452
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 091"
+        location = 3707
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 092"
+        location = 4640
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 093"
+        location = 6262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 094"
+        location = 6296
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 095"
+        location = 6314
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 096"
+        location = 6373
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 097"
+        location = 6380
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 098"
+        location = 6474
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 099"
+        location = 6593
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 100"
+        location = 9197
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 101"
+        location = 9262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 102"
+        location = 9288
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 103"
+        location = 9304
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 104"
+        location = 9355
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 105"
+        location = 9417
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 106"
+        location = 9483
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 107"
+        location = 11202
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 108"
+        location = 11230
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 109"
+        location = 11234
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 110"
+        location = 11241
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 111"
+        location = 11301
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 112"
+        location = 11349
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 113"
+        location = 11370
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 114"
+        location = 11437
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 115"
+        location = 11479
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 116"
+        location = 11504
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 117"
+        location = 11670
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 118"
+        location = 306
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 119"
+        location = 310
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 120"
+        location = 476
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 121"
+        location = 525
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 122"
+        location = 560
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 123"
+        location = 572
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 124"
+        location = 3151
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 125"
+        location = 3320
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 126"
+        location = 3335
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 127"
+        location = 3392
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 128"
+        location = 3393
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 129"
+        location = 3452
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 130"
+        location = 3707
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 131"
+        location = 4640
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 132"
+        location = 6262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 133"
+        location = 6296
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 134"
+        location = 6314
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 135"
+        location = 6373
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 136"
+        location = 6380
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 137"
+        location = 6474
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 138"
+        location = 6593
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 139"
+        location = 9197
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 140"
+        location = 9262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 141"
+        location = 9288
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 142"
+        location = 9304
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 143"
+        location = 9355
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 144"
+        location = 9417
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 145"
+        location = 9483
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 146"
+        location = 11202
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 147"
+        location = 11230
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 148"
+        location = 11234
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 149"
+        location = 11241
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 150"
+        location = 11301
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 151"
+        location = 11349
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 152"
+        location = 11370
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 153"
+        location = 11437
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 154"
+        location = 11479
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 155"
+        location = 11504
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 156"
+        location = 11670
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 157"
+        location = 306
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 158"
+        location = 310
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 159"
+        location = 476
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 160"
+        location = 525
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 161"
+        location = 560
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 162"
+        location = 572
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 163"
+        location = 3151
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 164"
+        location = 3320
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 165"
+        location = 3335
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 166"
+        location = 3392
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 167"
+        location = 3393
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 168"
+        location = 3452
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 169"
+        location = 3707
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 170"
+        location = 4640
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 171"
+        location = 6262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 172"
+        location = 6296
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 173"
+        location = 6314
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 174"
+        location = 6373
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 175"
+        location = 6380
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 176"
+        location = 6474
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 177"
+        location = 6593
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 178"
+        location = 9197
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 179"
+        location = 9262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 180"
+        location = 9288
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 181"
+        location = 9304
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 182"
+        location = 9355
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 183"
+        location = 9417
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 184"
+        location = 9483
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 185"
+        location = 11202
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 186"
+        location = 11230
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 187"
+        location = 11234
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 188"
+        location = 11241
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 189"
+        location = 11301
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 190"
+        location = 11349
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 191"
+        location = 11370
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 192"
+        location = 11437
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 193"
+        location = 11479
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 194"
+        location = 11504
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 195"
+        location = 11670
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 196"
+        location = 306
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 197"
+        location = 310
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 198"
+        location = 476
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 199"
+        location = 525
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 200"
+        location = 560
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 201"
+        location = 572
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 202"
+        location = 3151
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 203"
+        location = 3320
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 204"
+        location = 3335
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 205"
+        location = 3392
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 206"
+        location = 3393
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 207"
+        location = 3452
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 208"
+        location = 3707
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 209"
+        location = 4640
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 210"
+        location = 6262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 211"
+        location = 6296
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 212"
+        location = 6314
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 213"
+        location = 6373
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 214"
+        location = 6380
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 215"
+        location = 6474
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 216"
+        location = 6593
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 217"
+        location = 9197
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 218"
+        location = 9262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 219"
+        location = 9288
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 220"
+        location = 9304
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 221"
+        location = 9355
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 222"
+        location = 9417
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 223"
+        location = 9483
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 224"
+        location = 11202
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 225"
+        location = 11230
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 226"
+        location = 11234
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 227"
+        location = 11241
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 228"
+        location = 11301
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 229"
+        location = 11349
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 230"
+        location = 11370
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 231"
+        location = 11437
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 232"
+        location = 11479
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 233"
+        location = 11504
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 234"
+        location = 11670
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 235"
+        location = 306
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 236"
+        location = 310
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 237"
+        location = 476
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 238"
+        location = 525
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 239"
+        location = 560
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 240"
+        location = 572
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 241"
+        location = 3151
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 242"
+        location = 3320
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 243"
+        location = 3335
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 244"
+        location = 3392
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 245"
+        location = 3393
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 246"
+        location = 3452
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 247"
+        location = 3707
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 248"
+        location = 4640
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 249"
+        location = 6262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 250"
+        location = 6296
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 251"
+        location = 6314
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 252"
+        location = 6373
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 253"
+        location = 6380
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 254"
+        location = 6474
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 255"
+        location = 6593
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 256"
+        location = 9197
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 257"
+        location = 9262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 258"
+        location = 9288
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 259"
+        location = 9304
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 260"
+        location = 9355
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 261"
+        location = 9417
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 262"
+        location = 9483
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 263"
+        location = 11202
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 264"
+        location = 11230
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 265"
+        location = 11234
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 266"
+        location = 11241
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 267"
+        location = 11301
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 268"
+        location = 11349
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 269"
+        location = 11370
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 270"
+        location = 11437
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 271"
+        location = 11479
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 272"
+        location = 11504
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 273"
+        location = 11670
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 274"
+        location = 306
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 275"
+        location = 310
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 276"
+        location = 476
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 277"
+        location = 525
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 278"
+        location = 560
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 279"
+        location = 572
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 280"
+        location = 3151
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 281"
+        location = 3320
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 282"
+        location = 3335
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 283"
+        location = 3392
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 284"
+        location = 3393
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 285"
+        location = 3452
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 286"
+        location = 3707
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 287"
+        location = 4640
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 288"
+        location = 6262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 289"
+        location = 6296
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 290"
+        location = 6314
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 291"
+        location = 6373
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 292"
+        location = 6380
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 293"
+        location = 6474
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 294"
+        location = 6593
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 295"
+        location = 9197
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 296"
+        location = 9262
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 297"
+        location = 9288
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 298"
+        location = 9304
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 299"
+        location = 9355
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Infantry Division 300"
+        location = 9417
+        division_template = "EF Infantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 001"
+        location = 9483
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 002"
+        location = 11202
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 003"
+        location = 11230
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 004"
+        location = 11234
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 005"
+        location = 11241
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 006"
+        location = 11301
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 007"
+        location = 11349
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 008"
+        location = 11370
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 009"
+        location = 11437
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 010"
+        location = 11479
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 011"
+        location = 11504
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 012"
+        location = 11670
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 013"
+        location = 306
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 014"
+        location = 310
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 015"
+        location = 476
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 016"
+        location = 525
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 017"
+        location = 560
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 018"
+        location = 572
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 019"
+        location = 3151
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 020"
+        location = 3320
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 021"
+        location = 3335
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 022"
+        location = 3392
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 023"
+        location = 3393
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 024"
+        location = 3452
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 025"
+        location = 3707
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 026"
+        location = 4640
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 027"
+        location = 6262
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 028"
+        location = 6296
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 029"
+        location = 6314
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+    division = {
+        name = "EEF Medium Armour Division 030"
+        location = 6373
+        division_template = "EF Medium Armour"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1
+    }
+}

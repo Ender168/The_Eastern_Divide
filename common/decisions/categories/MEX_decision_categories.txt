@@ -1,0 +1,5 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+MEX_category_military_issues = { allowed = { always = no } visible = { always = no } }
+MEX_category_territorial_integration = { allowed = { always = no } visible = { always = no } }
+MEX_category_church_power = { allowed = { always = no } visible = { always = no } }
+MEX_category_hispanic_solidarity = { allowed = { always = no } visible = { always = no } }

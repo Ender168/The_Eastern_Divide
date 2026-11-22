@@ -1,0 +1,45 @@
+capital = 219
+
+set_politics = {
+    ruling_party = neutrality
+    elections_allowed = no
+}
+set_popularities = {
+    neutrality = 100
+}
+set_rule = {
+    can_not_declare_war = yes
+    can_create_factions = no
+    can_join_factions = no
+    can_send_volunteers = no
+}
+
+add_ideas = ef_scripted_match_surrender
+
+set_technology = {
+    infantry_weapons = 1
+    infantry_weapons1 = 1
+    motorised_infantry = 1
+    basic_medium_tank = 1
+    basic_train = 1
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+recruit_character = EEF_general_01
+recruit_character = EEF_general_02
+recruit_character = EEF_general_03
+recruit_character = EEF_general_04
+recruit_character = EEF_general_05
+recruit_character = EEF_general_06
+recruit_character = EEF_general_07
+recruit_character = EEF_general_08
+recruit_character = EEF_general_09
+recruit_character = EEF_general_10
+recruit_character = EEF_general_11
+recruit_character = EEF_general_12
+recruit_character = EEF_general_13
+recruit_character = EEF_general_14
+recruit_character = EEF_general_15
+recruit_character = EEF_marshal_01
+recruit_character = EEF_marshal_02
+recruit_character = EEF_marshal_03

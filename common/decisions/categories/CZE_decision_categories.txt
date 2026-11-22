@@ -1,0 +1,11 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+CZE_bop_army_readiness_category = { allowed = { always = no } visible = { always = no } }
+CZE_skoda_focus_category = { allowed = { always = no } visible = { always = no } }
+CZE_a_divided_nation_category = { allowed = { always = no } visible = { always = no } }
+CZE_a_divided_nation_fake_category = { allowed = { always = no } visible = { always = no } }
+CZE_crisis_in_the_sudentenland = { allowed = { always = no } visible = { always = no } }
+CZE_invest_in_the_balkans = { allowed = { always = no } visible = { always = no } }
+CZE_the_second_fortification_program_category = { allowed = { always = no } visible = { always = no } }
+CZE_spread_the_revolution_category = { allowed = { always = no } visible = { always = no } }
+CZE_autonomous_sentiment = { allowed = { always = no } visible = { always = no } }
+CZE_central_european_federation = { allowed = { always = no } visible = { always = no } }

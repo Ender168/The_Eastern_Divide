@@ -1,0 +1,6 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+SWI_debug_decisions_category = { allowed = { always = no } visible = { always = no } }
+SWI_centralization_power_balance_decisions = { allowed = { always = no } visible = { always = no } }
+SWI_federal_council_decisions_category = { allowed = { always = no } visible = { always = no } }
+SWI_military_readiness_decisions_category = { allowed = { always = no } visible = { always = no } }
+SWI_absolute_neutrality_decisions_category = { allowed = { always = no } visible = { always = no } }

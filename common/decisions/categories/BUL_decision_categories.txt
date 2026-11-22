@@ -1,0 +1,16 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+BUL_internal_factions = { allowed = { always = no } visible = { always = no } }
+BUL_macedonian_revolutionary_organizations = { allowed = { always = no } visible = { always = no } }
+BUL_macedonian_revolutionary_organizations_foreign = { allowed = { always = no } visible = { always = no } }
+BUL_the_fatherland_front_dec_cat = { allowed = { always = no } visible = { always = no } }
+BUL_rearmament = { allowed = { always = no } visible = { always = no } }
+BUL_foreign_agreements = { allowed = { always = no } visible = { always = no } }
+BUL_purchase_equipment = { allowed = { always = no } visible = { always = no } }
+BUL_negotiate_claims_in_the_balkans = { allowed = { always = no } visible = { always = no } }
+BUL_bulgarian_administration_of_the_balkans = { allowed = { always = no } visible = { always = no } }
+BUL_align_bulgaria = { allowed = { always = no } visible = { always = no } }
+BUL_the_balkan_federation_dream = { allowed = { always = no } visible = { always = no } }
+BUL_plot_against_boris_dec_cat = { allowed = { always = no } visible = { always = no } }
+BUL_the_fate_of_the_balkans_dec_cat = { allowed = { always = no } visible = { always = no } }
+BUL_dominance_in_the_seas = { allowed = { always = no } visible = { always = no } }
+BUL_balkan_confederation = { allowed = { always = no } visible = { always = no } }

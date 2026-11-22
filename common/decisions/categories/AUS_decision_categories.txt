@@ -1,0 +1,8 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+AUS_antischluss_category = { allowed = { always = no } visible = { always = no } }
+AUS_supporting_italy_in_ethiopia_category = { allowed = { always = no } visible = { always = no } }
+AUS_becoming_grossosterreich_category = { allowed = { always = no } visible = { always = no } }
+AUS_subjugating_the_lands_of_old_category = { allowed = { always = no } visible = { always = no } }
+AUS_the_danubian_federation_category = { allowed = { always = no } visible = { always = no } }
+AUS_danubian_communism_category = { allowed = { always = no } visible = { always = no } }
+AUS_reintegrating_the_empire_category = { allowed = { always = no } visible = { always = no } }

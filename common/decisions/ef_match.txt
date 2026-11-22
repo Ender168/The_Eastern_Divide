@@ -1,0 +1,30 @@
+ef_match = {
+    ef_start_match = {
+        allowed = { OR = { tag = WEF tag = EEF } }
+        available = {
+            is_ai = no
+            hidden_trigger = { NOT = { has_global_flag = ef_match_started } }
+            has_war = no
+            custom_trigger_tooltip = { tooltip = ef_army_wef_ready_tt WEF = { OR = { is_ai = yes has_country_flag = ef_army_deployed } } }
+            custom_trigger_tooltip = { tooltip = ef_army_eef_ready_tt EEF = { OR = { is_ai = yes has_country_flag = ef_army_deployed } } }
+        }
+        ai_will_do = { factor = 0 }
+        complete_effect = {
+            clear_rule = { can_not_declare_war = yes }
+            if = {
+                limit = { tag = WEF }
+                declare_war_on = { target = EEF type = annex_everything }
+            }
+            else = {
+                declare_war_on = { target = WEF type = annex_everything }
+            }
+            set_rule = { can_not_declare_war = yes }
+            hidden_effect = {
+                if = {
+                    limit = { WEF = { has_war_with = EEF } }
+                    ef_init_victory = yes
+                }
+            }
+        }
+    }
+}

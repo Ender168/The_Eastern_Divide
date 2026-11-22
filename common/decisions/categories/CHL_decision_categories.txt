@@ -1,0 +1,10 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+CHL_industrial_decisions = { allowed = { always = no } visible = { always = no } }
+CHL_mapuche_reconcilliation_decisions = { allowed = { always = no } visible = { always = no } }
+CHL_nacista_insurgency_decisions = { allowed = { always = no } visible = { always = no } }
+CHL_nacista_decisions = { allowed = { always = no } visible = { always = no } }
+CHL_anti_colonialism_category = { allowed = { always = no } visible = { always = no } }
+CHL_hispanic_unity_decisions = { allowed = { always = no } visible = { always = no } }
+CHL_mapuche_nationalism_decisions = { allowed = { always = no } visible = { always = no } }
+CHL_monarchist_decisions = { allowed = { always = no } visible = { always = no } }
+CHL_the_hispanic_revolutions_decisions = { allowed = { always = no } visible = { always = no } }

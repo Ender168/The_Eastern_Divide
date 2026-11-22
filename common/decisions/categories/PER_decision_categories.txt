@@ -1,0 +1,12 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+PER_profit_from_war_category = { allowed = { always = no } visible = { always = no } }
+PER_integrate_anatolia_decisions_category = { allowed = { always = no } visible = { always = no } }
+PER_absorb_byzantines_category = { allowed = { always = no } visible = { always = no } }
+PER_memphis_initiative_category = { allowed = { always = no } visible = { always = no } }
+PER_civil_unrest_category = { allowed = { always = no } visible = { always = no } }
+PER_mass_protests = { allowed = { always = no } visible = { always = no } }
+PER_national_iranian_radio = { allowed = { always = no } visible = { always = no } }
+PER_gulf_decisions_cat = { allowed = { always = no } visible = { always = no } }
+PER_anti_gulf_decisions_cat = { allowed = { always = no } visible = { always = no } }
+PER_kur_azr_independence_cat = { allowed = { always = no } visible = { always = no } }
+PER_plant_resistance_cat = { allowed = { always = no } visible = { always = no } }

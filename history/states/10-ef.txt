@@ -1,0 +1,15 @@
+state = {
+    id = 10
+    name = "STATE_10"
+    provinces = { 402 467 524 3482 3544 6511 9400 11492 12562 }
+    state_category = city
+    manpower = 150000
+    resources = { steel = 4 aluminium = 4 oil = 2 rubber = 2 tungsten = 2 chromium = 2 coal = 7 }
+    history = {
+        owner = WEF
+        add_core_of = WEF
+        buildings = { infrastructure = 3 industrial_complex = 3 arms_factory = 3 air_base = 5 }
+        victory_points = { 402 1 }
+        victory_points = { 3544 10 }
+    }
+}

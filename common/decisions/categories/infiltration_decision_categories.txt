@@ -1,0 +1,2 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+communist_infiltration = { allowed = { always = no } visible = { always = no } }

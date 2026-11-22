@@ -1,0 +1,6 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+GRE_1936_election_category = { allowed = { always = no } visible = { always = no } }
+GRE_pay_back_debt_to_the_ifc_category = { allowed = { always = no } visible = { always = no } }
+GRE_investment_decisions_category = { allowed = { always = no } visible = { always = no } }
+GRE_hellenic_academy_category = { allowed = { always = no } visible = { always = no } }
+GRE_faction_management_category = { allowed = { always = no } visible = { always = no } }

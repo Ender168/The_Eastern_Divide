@@ -1,0 +1,182 @@
+characters = {
+    EEF_general_01 = {
+        name = "EEF General 01"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_02 = {
+        name = "EEF General 02"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_03 = {
+        name = "EEF General 03"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_04 = {
+        name = "EEF General 04"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_05 = {
+        name = "EEF General 05"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_06 = {
+        name = "EEF General 06"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_07 = {
+        name = "EEF General 07"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_08 = {
+        name = "EEF General 08"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_09 = {
+        name = "EEF General 09"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_10 = {
+        name = "EEF General 10"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_11 = {
+        name = "EEF General 11"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_12 = {
+        name = "EEF General 12"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_13 = {
+        name = "EEF General 13"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_14 = {
+        name = "EEF General 14"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_general_15 = {
+        name = "EEF General 15"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_marshal_01 = {
+        name = "EEF Field Marshal 01"
+        field_marshal = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_marshal_02 = {
+        name = "EEF Field Marshal 02"
+        field_marshal = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    EEF_marshal_03 = {
+        name = "EEF Field Marshal 03"
+        field_marshal = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+}

@@ -1,0 +1,13 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+AFG_oil_concessions_category = { allowed = { always = no } visible = { always = no } }
+AFG_radical_students_category = { allowed = { always = no } visible = { always = no } }
+AFG_cross_border_ties_category = { allowed = { always = no } visible = { always = no } }
+AFG_quami_category = { allowed = { always = no } visible = { always = no } }
+AFG_foreign_intervention_category = { allowed = { always = no } visible = { always = no } }
+AFG_develop_central_asia_category = { allowed = { always = no } visible = { always = no } }
+AFG_shadows_of_the_emir_category = { allowed = { always = no } visible = { always = no } }
+AFG_turko_persian_heritage_category = { allowed = { always = no } visible = { always = no } }
+AFG_turkik_alliance_category = { allowed = { always = no } visible = { always = no } }
+AFG_kabul_conference_category = { allowed = { always = no } visible = { always = no } }
+AFG_turkestan_legion_cat = { allowed = { always = no } visible = { always = no } }
+AFG_sikh_recruitment_cat = { allowed = { always = no } visible = { always = no } }

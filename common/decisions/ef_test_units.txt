@@ -1,0 +1,25 @@
+ef_test_category = {
+    ef_test_spawn_units = {
+        allowed = { OR = { tag = WEF tag = EEF } }
+        visible = { is_ai = no OR = { tag = WEF tag = EEF } NOT = { has_country_flag = ef_army_deployed } }
+        available = {
+            is_ai = no
+            has_war = no
+            hidden_trigger = { NOT = { has_country_flag = ef_army_deployed } }
+        }
+        cost = 0
+        fire_only_once = yes
+        ai_will_do = { factor = 0 }
+        complete_effect = {
+            if = {
+                limit = { tag = WEF }
+                load_oob = "EF_WEF_start"
+            }
+            else_if = {
+                limit = { tag = EEF }
+                load_oob = "EF_EEF_start"
+            }
+            hidden_effect = { set_country_flag = ef_army_deployed }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+capital = 361
+
+set_politics = {
+    ruling_party = neutrality
+    elections_allowed = no
+}
+set_popularities = {
+    neutrality = 100
+}
+set_rule = {
+    can_not_declare_war = yes
+    can_create_factions = no
+    can_join_factions = no
+    can_send_volunteers = no
+}

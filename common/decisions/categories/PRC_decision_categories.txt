@@ -1,0 +1,16 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+PRC_infiltrate_nationalist_areas = { allowed = { always = no } visible = { always = no } }
+PRC_anti_japanese_expedition = { allowed = { always = no } visible = { always = no } }
+PRC_border_clashes = { allowed = { always = no } visible = { always = no } }
+PRC_the_communist_power_struggle_balance_of_power_category = { allowed = { always = no } visible = { always = no } }
+PRC_guerilla_warfare_sea_cat = { allowed = { always = no } visible = { always = no } }
+PRC_guerilla_suppression_sea_cat = { allowed = { always = no } visible = { always = no } }
+PRC_infiltration_sea_cat = { allowed = { always = no } visible = { always = no } }
+CHI_counter_infiltration_sea_cat = { allowed = { always = no } visible = { always = no } }
+PRC_economic_planning_cat = { allowed = { always = no } visible = { always = no } }
+PRC_28_bolshevik_faction_cat = { allowed = { always = no } visible = { always = no } }
+PRC_appeal_for_foreign_aid_cat = { allowed = { always = no } visible = { always = no } }
+PRC_border_wars_cat = { allowed = { always = no } visible = { always = no } }
+PRC_war_of_resistance_cat = { allowed = { always = no } visible = { always = no } }
+PRC_rural_surveyer_decision_cat = { allowed = { always = no } visible = { always = no } }
+PRC_integration_decision_cat = { allowed = { always = no } visible = { always = no } }

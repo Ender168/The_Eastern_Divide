@@ -1,0 +1,623 @@
+ef_setup_timed_victory = {
+    if = {
+        limit = {
+            NOT = { has_global_flag = ef_timed_victory_initialized }
+        }
+        set_global_flag = ef_timed_victory_initialized
+        set_variable = { global.ef_victory_days = 0 }
+        set_variable = { global.ef_victory_next_drop = 105 }
+        set_variable = { global.ef_fast_next_drop = 225 }
+        set_variable = { global.ef_fast_threshold = 25 }
+        set_variable = { global.ef_enemy_vp_threshold = 25 }
+        ef_sample_victory_control = yes
+    }
+}
+
+ef_init_victory = {
+    set_global_flag = ef_match_started
+    set_global_flag = { flag = ef_start_day days = 1 }
+    ef_setup_timed_victory = yes
+    ef_activate_victory_missions = yes
+}
+
+ef_sample_victory_control = {
+    WEF = {
+        set_variable = { global.ef_wef_vp = 0 }
+        set_variable = { global.ef_wef_enemy_vp = 0 }
+        if = {
+            limit = { controls_province = 306 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 362 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 413 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 418 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 476 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 525 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 657 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 690 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3151 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3152 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3335 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3458 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3544 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3548 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3569 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3707 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6282 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6296 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6332 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6380 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6474 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6521 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6557 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6558 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6711 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9288 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9304 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9340 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9355 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9388 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9417 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9427 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9617 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9660 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9692 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9716 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11202 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11241 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11301 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11370 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11399 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11411 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11437 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11479 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11542 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11581 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11586 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11666 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11670 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+            add_to_variable = { global.ef_wef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11899 }
+            add_to_variable = { global.ef_wef_vp = 1 }
+        }
+    }
+    EEF = {
+        set_variable = { global.ef_eef_vp = 0 }
+        set_variable = { global.ef_eef_enemy_vp = 0 }
+        if = {
+            limit = { controls_province = 306 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 362 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 413 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 418 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 476 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 525 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 657 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 690 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3151 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3152 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3335 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3458 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3544 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3548 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3569 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 3707 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6282 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6296 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6332 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6380 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6474 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6521 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6557 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6558 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 6711 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9288 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9304 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9340 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9355 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9388 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9417 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9427 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9617 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9660 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9692 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 9716 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11202 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11241 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11301 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11370 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11399 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11411 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11437 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11479 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11542 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11581 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11586 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11666 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11670 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+        }
+        if = {
+            limit = { controls_province = 11899 }
+            add_to_variable = { global.ef_eef_vp = 1 }
+            add_to_variable = { global.ef_eef_enemy_vp = 1 }
+        }
+    }
+}
+
+ef_activate_victory_missions = {
+    WEF = { if = { limit = { check_variable = { var = global.ef_wef_enemy_vp value = global.ef_enemy_vp_threshold compare = greater_than_or_equals } NOT = { has_active_mission = ef_hold_standard } } activate_mission = ef_hold_standard } }
+    WEF = { if = { limit = { check_variable = { var = global.ef_wef_enemy_vp value = global.ef_fast_threshold compare = greater_than_or_equals } NOT = { has_active_mission = ef_hold_fast } } activate_mission = ef_hold_fast } }
+    EEF = { if = { limit = { check_variable = { var = global.ef_eef_enemy_vp value = global.ef_enemy_vp_threshold compare = greater_than_or_equals } NOT = { has_active_mission = ef_hold_standard } } activate_mission = ef_hold_standard } }
+    EEF = { if = { limit = { check_variable = { var = global.ef_eef_enemy_vp value = global.ef_fast_threshold compare = greater_than_or_equals } NOT = { has_active_mission = ef_hold_fast } } activate_mission = ef_hold_fast } }
+}
+
+ef_daily_victory_clock = {
+    ef_setup_timed_victory = yes
+    add_to_variable = { global.ef_victory_days = 1 }
+    if = { limit = { check_variable = { var = global.ef_victory_days value = global.ef_victory_next_drop compare = greater_than_or_equals } check_variable = { var = global.ef_enemy_vp_threshold value = 1 compare = greater_than } } subtract_from_variable = { global.ef_enemy_vp_threshold = 1 } add_to_variable = { global.ef_victory_next_drop = 105 } ef_sample_victory_control = yes ef_activate_victory_missions = yes }
+    if = { limit = { check_variable = { var = global.ef_victory_days value = global.ef_fast_next_drop compare = greater_than_or_equals } check_variable = { var = global.ef_fast_threshold value = 1 compare = greater_than } } subtract_from_variable = { global.ef_fast_threshold = 1 } add_to_variable = { global.ef_fast_next_drop = 225 } ef_sample_victory_control = yes ef_activate_victory_missions = yes }
+}
+
+ef_monthly_victory = { ef_setup_timed_victory = yes ef_sample_victory_control = yes ef_activate_victory_missions = yes }
+
+ef_standard_mission_expired = {
+    ef_sample_victory_control = yes
+    if = {
+        limit = { tag = WEF check_variable = { var = global.ef_wef_enemy_vp value = global.ef_enemy_vp_threshold compare = greater_than_or_equals } }
+        ef_register_victory_ready_wef = yes
+    }
+    else_if = {
+        limit = { tag = EEF check_variable = { var = global.ef_eef_enemy_vp value = global.ef_enemy_vp_threshold compare = greater_than_or_equals } }
+        ef_register_victory_ready_eef = yes
+    }
+}
+
+ef_fast_mission_expired = {
+    ef_sample_victory_control = yes
+    if = {
+        limit = { tag = WEF check_variable = { var = global.ef_wef_enemy_vp value = global.ef_fast_threshold compare = greater_than_or_equals } }
+        ef_register_victory_ready_wef = yes
+    }
+    else_if = {
+        limit = { tag = EEF check_variable = { var = global.ef_eef_enemy_vp value = global.ef_fast_threshold compare = greater_than_or_equals } }
+        ef_register_victory_ready_eef = yes
+    }
+}
+
+ef_register_victory_ready_wef = {
+    if = {
+        limit = { NOT = { has_global_flag = ef_victory_resolution_queued } }
+        set_global_flag = ef_victory_resolution_queued
+        set_variable = { global.ef_victory_resolution_date = global.date }
+        set_variable = { global.ef_victory_resolve_wef_vp = global.ef_wef_vp }
+        set_variable = { global.ef_victory_resolve_eef_vp = global.ef_eef_vp }
+        set_global_flag = ef_victory_ready_wef
+        WEF = { country_event = { id = ef_victory.13 days = 1 } }
+    }
+    else_if = {
+        limit = {
+            check_variable = { var = global.ef_victory_resolution_date value = global.date compare = equals }
+        }
+        set_global_flag = ef_victory_ready_wef
+    }
+}
+
+ef_register_victory_ready_eef = {
+    if = {
+        limit = { NOT = { has_global_flag = ef_victory_resolution_queued } }
+        set_global_flag = ef_victory_resolution_queued
+        set_variable = { global.ef_victory_resolution_date = global.date }
+        set_variable = { global.ef_victory_resolve_wef_vp = global.ef_wef_vp }
+        set_variable = { global.ef_victory_resolve_eef_vp = global.ef_eef_vp }
+        set_global_flag = ef_victory_ready_eef
+        WEF = { country_event = { id = ef_victory.13 days = 1 } }
+    }
+    else_if = {
+        limit = {
+            check_variable = { var = global.ef_victory_resolution_date value = global.date compare = equals }
+        }
+        set_global_flag = ef_victory_ready_eef
+    }
+}
+
+ef_resolve_victory = {
+    clr_global_flag = ef_victory_resolution_queued
+    if = {
+        limit = {
+            has_global_flag = ef_victory_ready_wef
+            has_global_flag = ef_victory_ready_eef
+        }
+        if = {
+            limit = {
+                check_variable = { var = global.ef_victory_resolve_wef_vp value = global.ef_victory_resolve_eef_vp compare = greater_than }
+            }
+            ef_finish_wef = yes
+        }
+        else_if = {
+            limit = {
+                check_variable = { var = global.ef_victory_resolve_eef_vp value = global.ef_victory_resolve_wef_vp compare = greater_than }
+            }
+            ef_finish_eef = yes
+        }
+        else = {
+            ef_finish_draw = yes
+        }
+    }
+    else_if = {
+        limit = {
+            has_global_flag = ef_victory_ready_wef
+        }
+        ef_finish_wef = yes
+    }
+    else_if = {
+        limit = {
+            has_global_flag = ef_victory_ready_eef
+        }
+        ef_finish_eef = yes
+    }
+    clr_global_flag = ef_victory_ready_wef
+    clr_global_flag = ef_victory_ready_eef
+}
+
+ef_finish_wef = {
+    set_global_flag = ef_match_finished
+    set_global_flag = ef_result_wef
+    WEF = { country_event = { id = ef_victory.1 } }
+    EEF = { country_event = { id = ef_victory.1 } }
+    WEF = { white_peace = EEF }
+    EEF = { delete_unit = { disband = yes } every_owned_state = { set_demilitarized_zone = yes } }
+}
+
+ef_finish_eef = {
+    set_global_flag = ef_match_finished
+    set_global_flag = ef_result_eef
+    WEF = { country_event = { id = ef_victory.2 } }
+    EEF = { country_event = { id = ef_victory.2 } }
+    EEF = { white_peace = WEF }
+    WEF = { delete_unit = { disband = yes } every_owned_state = { set_demilitarized_zone = yes } }
+}
+
+ef_finish_draw = {
+    set_global_flag = ef_match_finished
+    set_global_flag = ef_result_draw
+    WEF = { country_event = { id = ef_victory.3 } }
+    EEF = { country_event = { id = ef_victory.3 } }
+    WEF = { white_peace = { tag = EEF message = ef_result_draw_title } }
+}

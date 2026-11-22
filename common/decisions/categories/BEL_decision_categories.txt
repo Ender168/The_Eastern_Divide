@@ -1,0 +1,8 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+BEL_gold_reserves_cat = { allowed = { always = no } visible = { always = no } }
+BEL_belgian_defences_cat = { allowed = { always = no } visible = { always = no } }
+BEL_government_in_exile_cat = { allowed = { always = no } visible = { always = no } }
+BEL_closer_european_union_cat = { allowed = { always = no } visible = { always = no } }
+BEL_cores_in_gallic_france_cat = { allowed = { always = no } visible = { always = no } }
+BEL_intervention_in_spain_cat = { allowed = { always = no } visible = { always = no } }
+BEL_rekindle_the_red_flame_cat = { allowed = { always = no } visible = { always = no } }

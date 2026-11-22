@@ -1,0 +1,9 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+USA_war_measures = { allowed = { always = no } visible = { always = no } }
+USA_aid_britain = { allowed = { always = no } visible = { always = no } }
+USA_foreign_support = { allowed = { always = no } visible = { always = no } }
+USA_congress = { allowed = { always = no } visible = { always = no } }
+USA_war_plans = { allowed = { always = no } visible = { always = no } }
+USA_intervention_mandate = { allowed = { always = no } visible = { always = no } }
+USA_honor_the_confederacy = { allowed = { always = no } visible = { always = no } }
+USA_decolonisation = { allowed = { always = no } visible = { always = no } }

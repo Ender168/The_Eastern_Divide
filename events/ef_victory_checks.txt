@@ -1,0 +1,90 @@
+country_event = {
+    id = ef_victory.10
+    hidden = yes
+    is_triggered_only = yes
+    immediate = {
+        if = {
+            limit = {
+                has_global_flag = ef_match_started
+                NOT = { has_global_flag = ef_match_finished }
+
+
+                WEF = { has_war_with = EEF }
+            }
+            ef_daily_victory_clock = yes
+        }
+    }
+}
+
+country_event = {
+    id = ef_victory.11
+    hidden = yes
+    is_triggered_only = yes
+    immediate = {
+        if = {
+            limit = {
+                has_global_flag = ef_match_started
+                NOT = { has_global_flag = ef_match_finished }
+
+
+                WEF = { has_war_with = EEF }
+            }
+            ef_monthly_victory = yes
+        }
+    }
+}
+
+country_event = {
+    id = ef_victory.12
+    hidden = yes
+    is_triggered_only = yes
+    immediate = {
+        if = {
+            limit = {
+                has_global_flag = ef_match_started
+                NOT = { has_global_flag = ef_match_finished }
+
+
+                WEF = { has_war_with = EEF }
+            }
+            ef_standard_mission_expired = yes
+        }
+    }
+}
+
+country_event = {
+    id = ef_victory.14
+    hidden = yes
+    is_triggered_only = yes
+    immediate = {
+        if = {
+            limit = {
+                has_global_flag = ef_match_started
+                NOT = { has_global_flag = ef_match_finished }
+
+
+                WEF = { has_war_with = EEF }
+            }
+            ef_fast_mission_expired = yes
+        }
+    }
+}
+
+country_event = {
+    id = ef_victory.13
+    hidden = yes
+    is_triggered_only = yes
+    immediate = {
+        if = {
+            limit = {
+                has_global_flag = ef_match_started
+                NOT = { has_global_flag = ef_match_finished }
+
+
+                WEF = { has_war_with = EEF }
+                has_global_flag = ef_victory_resolution_queued
+            }
+            ef_resolve_victory = yes
+        }
+    }
+}

@@ -1,0 +1,182 @@
+characters = {
+    WEF_general_01 = {
+        name = "WEF General 01"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_02 = {
+        name = "WEF General 02"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_03 = {
+        name = "WEF General 03"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_04 = {
+        name = "WEF General 04"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_05 = {
+        name = "WEF General 05"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_06 = {
+        name = "WEF General 06"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_07 = {
+        name = "WEF General 07"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_08 = {
+        name = "WEF General 08"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_09 = {
+        name = "WEF General 09"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_10 = {
+        name = "WEF General 10"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_11 = {
+        name = "WEF General 11"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_12 = {
+        name = "WEF General 12"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_13 = {
+        name = "WEF General 13"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_14 = {
+        name = "WEF General 14"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_general_15 = {
+        name = "WEF General 15"
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_marshal_01 = {
+        name = "WEF Field Marshal 01"
+        field_marshal = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_marshal_02 = {
+        name = "WEF Field Marshal 02"
+        field_marshal = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+    WEF_marshal_03 = {
+        name = "WEF Field Marshal 03"
+        field_marshal = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+        }
+    }
+}

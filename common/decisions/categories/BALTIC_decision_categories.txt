@@ -1,0 +1,15 @@
+# Keep vanilla category IDs available; suppress their interface in Eastern Front.
+LIT_iron_wolf_coup = { allowed = { always = no } visible = { always = no } }
+LIT_iron_wolf_appeasement = { allowed = { always = no } visible = { always = no } }
+support_polish_falange_decisions = { allowed = { always = no } visible = { always = no } }
+EST_vaps_revolt_category = { allowed = { always = no } visible = { always = no } }
+EST_fight_vaps_decisions = { allowed = { always = no } visible = { always = no } }
+march_through_estonia = { allowed = { always = no } visible = { always = no } }
+EST_convert_FIN_cat = { allowed = { always = no } visible = { always = no } }
+LAT_perkonkrust_revolt_category = { allowed = { always = no } visible = { always = no } }
+LAT_delay_perkonkrust_decisions = { allowed = { always = no } visible = { always = no } }
+promote_baltic_fascism_cat = { allowed = { always = no } visible = { always = no } }
+BALTIC_entente = { allowed = { always = no } visible = { always = no } }
+convert_neighbours_baltic_cat = { allowed = { always = no } visible = { always = no } }
+infiltrate_belarus_decisions = { allowed = { always = no } visible = { always = no } }
+BALTIC_forest_brother_resistance_cat = { allowed = { always = no } visible = { always = no } }
