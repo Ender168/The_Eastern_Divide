@@ -1,5 +1,7 @@
 # The Eastern Divide
 
+![The Eastern Divide](thumbnail.png)
+
 **A standalone Hearts of Iron IV scenario for two players.**
 
 Take command of the Western or Eastern Side in an Eastern European campaign. Begin along a narrow front, then fight for key cities as the battle lines expand.
